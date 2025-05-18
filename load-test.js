@@ -102,26 +102,26 @@ export default function () {
   // Descomenta las llamadas a las funciones que quieras probar
   // Puedes ejecutar pruebas separadas para cada escenario para comparar mejor
 
-  // console.log('Ejecutando prueba de concatenación ineficiente...');
-  // testInefficientConcat();
-  // sleep(2); // Espera un poco antes de la siguiente prueba
+  console.log('Ejecutando prueba de concatenación ineficiente...');
+  testInefficientConcat();
+  sleep(2); // Espera un poco antes de la siguiente prueba
 
-  // console.log('Ejecutando prueba de concatenación eficiente...');
-  // testEfficientConcat();
-  // sleep(2); // Espera un poco
+  console.log('Ejecutando prueba de concatenación eficiente...');
+  testEfficientConcat();
+  sleep(2); // Espera un poco
 
-  // console.log('Ejecutando prueba de lista con Wrappers...');
-  // testWrapperList();
-  // sleep(2); // Espera un poco
+  console.log('Ejecutando prueba de lista con Wrappers...');
+  testWrapperList();
+  sleep(2); // Espera un poco
 
-  // console.log('Ejecutando prueba de array con primitivos...');
-  // testPrimitiveArray();
-  // sleep(2); // Espera un poco
+  console.log('Ejecutando prueba de array con primitivos...');
+  testPrimitiveArray();
+  sleep(2); // Espera un poco
 
   // Para probar la fuga de memoria, descomenta la siguiente línea.
   // ¡Recuerda que esto puede llevar a un OutOfMemoryError si la carga es alta y sostenida!
-  console.log('Simulando fuga de memoria...');
-  simulateLeak();
+  // console.log('Simulando fuga de memoria...');
+  // simulateLeak();
   // sleep(1); // Pausa corta para intentar causar la fuga más rápido bajo carga
 
   // Si quieres limpiar la fuga después de una prueba, puedes ejecutar 'clearLeak()'
