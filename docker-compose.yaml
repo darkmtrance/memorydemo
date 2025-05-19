@@ -1,0 +1,6 @@
+services:
+  pyroscope:
+    container_name: memorydemo-pyroscope
+    image: grafana/pyroscope:latest
+    ports:
+      - "4040:4040"
